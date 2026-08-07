@@ -106,6 +106,7 @@ import todoImage from '../assets/Images/ToDoList.png';
 import nosqlImage from '../assets/Images/nosql.png';
 import contactImage from '../assets/Images/contact.png';
 import paytoolImage from '../assets/Images/paytool.png';
+import overcomeCampvideo from '../assets/Videos/Overcomecampvideo.mov';
 export const projects = [
   {
     slug: "pomi-app",
@@ -138,7 +139,7 @@ export const projects = [
     year: 2026,
     image: "/images/content/overcome.png",
     mediaType: "video",
-    video: "/videos/Overcomecampvideo.mov",
+    video: overcomeCampvideo,
     link: "https://overcomecamp2026.vercel.app/",
     repo: null,
     linkedinPost: "https://www.linkedin.com/posts/pedro-rios-backend_overcomecamp2026-react-typescript-activity-123456789",
