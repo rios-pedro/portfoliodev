@@ -101,6 +101,7 @@ export const skills = [
   { name: "Linux", percent: 75, color: "#fcc624" },
 ];
 
+import pomiImage from '../assets/Images/pomiimage.png';
 export const projects = [
   {
     slug: "pomi-app",
@@ -113,7 +114,7 @@ export const projects = [
     stack: ["React", "TypeScript", "Tauri", "Rust"],
     category: "Desktop",
     year: 2026,
-    image: src="/assets/Images/pomiimage.png",
+    image: pomiImage,
     mediaType: "image",
     link: "https://rios-pedro.github.io/pomi-site/",
     repo: "https://github.com/rios-pedro/pomi",
