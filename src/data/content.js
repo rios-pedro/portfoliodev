@@ -102,6 +102,10 @@ export const skills = [
 ];
 
 import pomiImage from '../assets/Images/pomiimage.png';
+import todoImage from '../assets/Images/ToDoList.png';
+import nosqlImage from '../assets/Images/nosql.png';
+import contactImage from '../assets/Images/contact.png';
+import paytoolImage from '../assets/Images/paytool.png';
 export const projects = [
   {
     slug: "pomi-app",
@@ -151,7 +155,7 @@ export const projects = [
     stack: ["Java", "Spring Boot", "JPA", "Hibernate", "H2"],
     category: "Backend",
     year: 2026,
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=600&auto=format&fit=crop",
+    image: paytoolImage,
     mediaType: "image",
     link: "https://github.com/rios-pedro/paytool",
     repo: "https://github.com/rios-pedro/paytool",
@@ -169,10 +173,10 @@ export const projects = [
     stack: ["React", "Hooks", "CSS"],
     category: "Fullstack",
     year: 2025,
-    image: "https://images.unsplash.com/photo-1517042642567-c639042777db?q=80&w=600&auto=format&fit=crop",
+    image: todoImage,
     mediaType: "image",
     link: "https://react-to-do-list-ten-gray.vercel.app",
-    repo: null,
+    repo: "https://github.com/rios-pedro/React-To-Do-List",
     linkedinPost: null,
     highlight: false,
   },
@@ -187,7 +191,7 @@ export const projects = [
     stack: ["Java", "Spring Boot", "MongoDB"],
     category: "Backend",
     year: 2025,
-    image: "https://images.unsplash.com/photo-1611262588024-d1730b98920?q=80&w=600&auto=format&fit=crop",
+    image: nosqlImage,
     mediaType: "image",
     link: "https://github.com/rios-pedro/socialApiNoSql",
     repo: "https://github.com/rios-pedro/socialApiNoSql",
@@ -205,12 +209,12 @@ export const projects = [
     stack: ["Java 17", "Spring Boot", "Spring Data JPA", "PostgreSQL", "Swagger", "Lombok"],
     category: "Backend",
     year: 2025,
-    image: "https://images.unsplash.com/photo-1553874222-43269d4ea984?q=80&w=600&auto=format&fit=crop",
+    image: contactImage,
     mediaType: "image",
     link: "https://github.com/rios-pedro/contact",
     repo: "https://github.com/rios-pedro/contact",
     linkedinPost: null,
-    highlight: false,
+    highlight: true,
   },
 ];
 
